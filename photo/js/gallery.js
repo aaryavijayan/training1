@@ -1,0 +1,13 @@
+function upDate(previewPic){
+      document.getElementById("image").style.backgroundImage="url("+previewPic.src +")";
+      document.getElementById("image").innerHTML=previewPic.alt;
+
+  
+	}
+
+	function unDo(){
+    X=document.getElementById("image");
+    X.style.backgroundImage="url('')";
+    document.getElementById("image").innerHTML="However over an image below to display here";
+		
+	}
